@@ -1,0 +1,118 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+/* Começo Header */
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    border-bottom: solid #32b9cd 3px;
+}
+
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    color: #32b9cd;
+    
+}
+
+.NavBar {
+    width: 300px;
+    display: flex;
+    color: #bd9762;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: #bd9762;
+}
+
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+/* Fim Header*/
+
+/* Começo Banner */
+.banner {
+    background-image: url(../Imagens/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.banner .container {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container p {
+    color: white;
+    font-size: 36px;
+    width: 200px;
+}
+
+p span {
+    font-weight: 1000;
+}
+/* Fim Banner */
+
+/* Começo Social */
+.social {
+    background-color: #cdcdcd;
+}
+
+.social .container .card img {
+    width: 100px;
+    height: 100px;
+}
+
+.social .container {
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.card h4 {
+    color: #d7427d;
+}
+
+.card p {
+    width: 150px;
+text-align: justify;
+}
+/* Fim Social */
+
+/* Começo Rodapé */
+.rodape {
+    height: 50px;
+    width: 450;
+    display: flex;
+    align-items: center;
+    margin-left: 38%;
+    margin-top: 10%;
+}
+/* Fim Rodapé */
+
